@@ -1,0 +1,213 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    background: url("../image/hb.png") center top no-repeat;
+    background-size: cover;
+
+}
+.header .navbar-expand-lg .container-fluid{
+    padding: 0px 100px 0px;
+    
+  }
+.header .navbar-expand-lg .container-fluid .navbar-brand{
+    
+    margin: 0px 10px 10px 0px;
+    
+}
+.header .navbar-expand-lg .container-fluid .navbar-collapse .nav-item .nav-link{
+    color: #204f87;
+}
+.testimonials .item .banner{
+    background: url("../image/G1.png") center bottom no-repeat;
+    height: 500px;
+    width: 100%;
+    padding: 200px 0px 20px 35px;
+}
+.testimonials .item .banner .container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:60px;
+    font-weight:600;
+    color: white;
+    text-align: center;
+}
+.banner{
+        padding: 90px 130px 90px 170px;
+}
+
+
+
+.features{
+    background: url("../image/G6.png") center top no-repeat;
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+}
+.features .container .row .col-4 .inner-feature{
+    width: 75%;
+    padding: 50px 30px;
+    margin: 0px 30px;
+}
+.features .container .row .col-4 .cl1 {
+    background: url("../image/G3.png") center top no-repeat;
+    width: 100%;
+    height: 550px;
+    margin: 200px 0px 10px 0px;
+}
+.features .container .row .col-4 .cl2 {
+    background: url("../image/G4.png") center top no-repeat;
+    width: 100%;
+    height: 550px;
+    margin: 200px 0px 10px 0px;
+}
+.features .container .row .col-4 .cl3 {
+    background: url("../image/G5.png") center top no-repeat;
+    width: 100%;
+    height: 550px;
+    margin: 200px 0px 10px 0px;
+}
+.features .container .row .col-4 .inner-feature h4{
+    font-size: 20px;
+    line-height: 1.4em;
+    color:#f7f8f8 ;
+    font-weight: 700;
+    margin: 110px 0px 0px 0px;
+    text-align: center;
+}
+
+
+.successful{
+    background: url("../image/G7.png") center top no-repeat;
+    width: 1251px;
+
+}
+.successful .left-box{
+    width: 100%;
+    margin: 80px -70px 0px 52px;
+    float: right;
+    text-align: left;
+    background: #28377e;
+   
+}
+.successful .left-box .line{
+    margin: 20px 0px 0px 42px;
+    background: #28377e;
+   
+}
+.successful .left-box h1{
+    font-size: 40px;
+    line-height: 1.2em;
+    color: white;
+    font-weight: 700;
+    margin: 20px 0px 0px 40px;
+}
+.successful .left-box p{
+    font-size: 14px;
+    line-height: 1.7em;
+    color: white;
+    font-weight: 400;
+    margin: 20px 15px 5px 40px;
+
+}
+.successful .right-box .G1{
+    width: 50%;
+    margin: 95px 0px 0px 80px;
+   background: #28377e;
+   
+    float: left;
+}
+.successful .right-box .G2{
+     width: 50%;
+    margin: 95px 0px 0px -133px;
+   background: #28377e;
+   
+    float: left;
+}
+.successful .right-box .G3{
+     width: 50%;
+    margin: 0px 0px 55px 80px;
+   
+    float: left;
+}
+.successful .right-box .G4{
+     width: 50%;
+   margin: 0px 0px 15px -133px;
+    float: left;
+}
+.successful .left-box .btn-primary{
+    padding: 40px 0px 0px 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background: transparent;
+    color: #f2622c;
+    border: none;
+    transition: 0s;
+}
+.G12{
+    margin: 100px 0px 75px 460px;
+}
+.language .container h1{
+    color: #28377e;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.language .container p{
+    font-family: 'Roboto', sans-serif;
+    color: #b1b0b1;
+    
+}
+.language .container .btn-primary{
+    margin: -12px 0px 0px -12px;
+    font-size: 14px bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #f2622c;
+    background: transparent;
+    border: none;
+}
+.main-form{
+    width: 1251px;
+    padding: 200px 0px 0px 0px;
+    background: url("../image/G13.png") center top no-repeat;
+    margin: 60px 0px -70px;
+    z-index: 1;
+    position: relative;
+}
+.main-form .form-control{
+    background: transparent;
+    padding: 30px 0px 0px 400px;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.footer .foot{
+ padding: 65px 0px 0px 0px;
+}
+
